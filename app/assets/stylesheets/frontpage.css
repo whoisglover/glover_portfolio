@@ -338,9 +338,11 @@ video {
 .fa{
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+  overflow: visible;
+
 }
 #social:hover{
-  font-size: 2.5rem;
+  color:red;
 }
 
 ::selection{
@@ -349,17 +351,31 @@ video {
 }
 
 #divide{
-  background-image: url('Elephant.jpg');
-  /*background-image: url("assets/Elephant.jpg");*/
+
+background: url('http://images.fanpop.com/images/image_uploads/in-tree-calvin--26-hobbes-318462_1024_768.jpg');
 background-attachment: fixed;
 background-size: cover;
 background-repeat: no-repeat;
 background-color: #3498DB;
+}
+#divide2{
+background: url('http://images.fanpop.com/images/image_uploads/fallen-in-a-tree-calvin--26-hobbes-318679_1024_768.jpg');
+/*background: url('http://images.fanpop.com/images/image_uploads/in-tree-calvin--26-hobbes-318462_1024_768.jpg');*/
+background-attachment: fixed;
+/*background-size: cover;*/
+/*background-repeat: no-repeat;*/
 
+background-color: #3498DB;
 
 }
+
 
 #overlay{
 
   background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
 }
+
+
+#skills li{display: inline-block;}
+#skills li:after { content: "•";}
+#skills li:last-child:after { content: "";}
