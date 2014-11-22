@@ -377,5 +377,5 @@ background-color: #3498DB;
 
 
 #skills li{display: inline-block;}
-#skills li:after { content: "•";}
+#skills li:after { content: " •";}
 #skills li:last-child:after { content: "";}
