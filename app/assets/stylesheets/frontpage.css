@@ -352,14 +352,14 @@ video {
 
 #divide{
 
-background: url('http://images.fanpop.com/images/image_uploads/in-tree-calvin--26-hobbes-318462_1024_768.jpg');
-background-attachment: fixed;
+background: url('tree-nap.jpg');
+background-attachment:fixed;
 background-size: cover;
 background-repeat: no-repeat;
 background-color: #3498DB;
 }
 #divide2{
-background: url('http://images.fanpop.com/images/image_uploads/fallen-in-a-tree-calvin--26-hobbes-318679_1024_768.jpg');
+background: url('tree-fail.jpg');
 /*background: url('http://images.fanpop.com/images/image_uploads/in-tree-calvin--26-hobbes-318462_1024_768.jpg');*/
 background-attachment: fixed;
 /*background-size: cover;*/
