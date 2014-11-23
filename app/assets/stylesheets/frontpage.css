@@ -26,6 +26,9 @@ h1{
 .pad-right1{
   padding-right: 1rem;
 }
+.pad-right7{
+  padding-right: 7rem;
+}
 .pad-left1{
   padding-left: 1rem;
 }
@@ -37,6 +40,13 @@ h1{
 }
 .pad-left5{
   padding-left: 5rem;
+}
+.pad-btm-1{
+  padding-bottom: 1rem;
+}
+
+.pad-btm-2{
+  padding-bottom: 2rem;
 }
 
 .top-offset{
@@ -287,6 +297,9 @@ h1{
 .ft-4{
   font-size: 4rem;
 }
+.txt-clear{
+  text-decoration: none;
+}
 
 /* Display, Alignmnet */
 
@@ -300,6 +313,11 @@ h1{
   float:left;
 }
 
+.box-shadow{
+  -webkit-box-shadow: 0px 0px 42px 5px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 0px 42px 5px rgba(0,0,0,0.57);
+  box-shadow: 0px 0px 42px 5px rgba(0,0,0,0.57);
+}
 
 .square-box{
     position: relative;
@@ -395,3 +413,8 @@ background-color: #3498DB;
 #skills li{display: inline-block;}
 #skills li:after { content: " •";}
 #skills li:last-child:after { content: "";}
+
+.header{
+  padding-top: 64px;
+  margin-top:-64px;
+}
