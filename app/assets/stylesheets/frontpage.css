@@ -77,6 +77,9 @@ h1{
 .w-100p{
   width:100%;
 }
+.w-85p{
+  width:85%;
+}
 .w-75p{
   width: 75%;
 }
@@ -363,6 +366,16 @@ background-color: #3498DB;
 }
 #divide2{
 background: url('tree-fail.jpg');
+/*background: url('http://images.fanpop.com/images/image_uploads/in-tree-calvin--26-hobbes-318462_1024_768.jpg');*/
+background-attachment: fixed;
+/*background-size: cover;*/
+/*background-repeat: no-repeat;*/
+
+background-color: #3498DB;
+
+}
+#divide3{
+background: url('stars.jpg');
 /*background: url('http://images.fanpop.com/images/image_uploads/in-tree-calvin--26-hobbes-318462_1024_768.jpg');*/
 background-attachment: fixed;
 /*background-size: cover;*/
