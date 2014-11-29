@@ -100,7 +100,7 @@
 
     <!-- Social Links -->
     <div class="grid_6 -ltblue push_6 txt-center ft-2">
-      <a href=""><i id="social" class="fa fa-linkedin-square ft-1 linkedin"></i></a>
+      <a href="http://www.linkedin.com/in/whoisglover"><i id="social" class="fa fa-linkedin-square ft-1 linkedin"></i></a>
       <a href="http://www.github.com/whoisglover"><i id="social" class="fa fa-github github"></i></a>
       <a href="http://www.twitter.com/whoisglover"><i id="social" class="fa fa-twitter twitter"></i></a>
       <a href="http://www.instagram.com/whoisglover"><i id="social" class="fa fa-instagram instagram"></i></a>
@@ -274,6 +274,23 @@
       <h1>Contact Me</h1>
     </div>
   </div>
+  <% @contact = Contact.new %>
+  <div align="center">
+    <h3>Send A message to Us</h3>
+    <%= form_for @contact do |f| %>
+      <%= f.text_field :name, :required => true %>
+      <%= f.text_field :email, :required => true %>
+      <%= f.text_area :message, :as => :text, :required => true %>
+      <div class= "hidden">
+        <%= f.text_field :nickname, :hint => 'Leave this field blank!' %>
+      </div>
+      <div>
+        </br>
+        <%= f.submit  %>
+      </div>
+    <% end %>
+  </div>
+
 
   <div class="w-100p white txt-center back-blue" style="border-top: 1px solid gray">
     <p style="margin-bottom:0;">Built with Ruby 2 + Rails 4</p><p class="margin-0 pad-btm-1"><a href="" class="txt-clear white">Blog</a> • <a href="" class="txt-clear white">Legal</a> • <a href="" class="txt-clear white">Source</a></p>

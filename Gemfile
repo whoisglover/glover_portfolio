@@ -39,3 +39,5 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'mail_form'
+gem 'simple_form'
