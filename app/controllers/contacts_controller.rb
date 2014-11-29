@@ -11,7 +11,8 @@ class ContactsController < ApplicationController
       p "!" * 200
     else
       flash.now[:error] = 'Cannot send message.'
-      render :new
+      p "?" * 100
+      redirect_to 'http://www.google.com'
     end
     redirect_to '/'
   end
