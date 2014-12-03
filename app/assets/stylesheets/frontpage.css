@@ -23,6 +23,9 @@ h1{
 .marg-top1{
   margin-top: 1rem;
 }
+.marg-top-nav{
+  margin-top: 1.5rem;
+}
 .pad-right1{
   padding-right: 1rem;
 }
@@ -478,4 +481,14 @@ background-color: #dff0d8;
 border-color: #d6e9c6;
 color: #468847;
 text-align: left;
+}
+
+
+a{
+  text-decoration: none;
+  color: #3498DB;
+}
+
+a:hover{
+  color:#D32122;
 }
