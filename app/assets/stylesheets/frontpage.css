@@ -154,6 +154,9 @@ h1{
 .h-10{
   height:10rem;
 }
+.h-13{
+  height: 13rem;
+}
 .h-9{
   height:9rem;
 }
@@ -423,8 +426,22 @@ background-color: #3498DB;
   background: url('/assets/browser.png');
   background-size: 100%;
   background-repeat: no-repeat;
+}
 
-
+#frogpress{
+  background: url('/assets/frogpress.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#capstone{
+  background: url('/assets/capstone.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#whenandwhere{
+  background: url('/assets/whenandwhere.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 
