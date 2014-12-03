@@ -280,27 +280,20 @@
   <!-- Contact Me Section -->
   <div id="contact" class="header"></div>
   <div class="container_12 back-white">
-    <div class="grid_12 h-30 txt-right">
+    <div class="grid_12  txt-right">
       <h1>Contact Me</h1>
     </div>
   </div>
   <% @contact = Contact.new %>
   <div align="center">
-  <h3>Send A message to Us</h3>
+    <h3>Want to chat? Shoot me an <a href="mailto:djglover00@gmail.com">email</a>.</h3>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
-  <%= simple_form_for @contact, :html => {:class => 'form-horizontal' } do |f| %>
-    <%= f.input :name, :required => true %>
-    <%= f.input :email, :required => true %>
-    <%= f.input :message, :as => :text, :required => true %>
-    <div class= "hidden">
-      <%= f.input :nickname, :hint => 'Leave this field blank!' %>
-    </div>
-    <div>
-      </br>
-      <%= f.button :submit, 'Send message', :class=> "btn btn-primary" %>
-    </div>
-  <% end %>
-</div>
+  </div>
 
 
   <div class="w-100p white txt-center back-blue" style="border-top: 1px solid gray">
