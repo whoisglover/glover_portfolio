@@ -22,8 +22,14 @@ h1{
 .marg-top1{
   margin-top: 1rem;
 }
+.marg-top2{
+  margin-top: 2rem;
+}
 .marg-top-nav{
   margin-top: 1.5rem;
+}
+.pad-05{
+  padding: 0.5rem;
 }
 .pad-right1{
   padding-right: 1rem;
@@ -34,14 +40,18 @@ h1{
 .pad-left1{
   padding-left: 1rem;
 }
+.pad-left2{
+  padding-left: 2rem;
+}
+
 .pad-left18{
   padding-left: 18%;
 }
 .pad-right5{
   padding-right: 5rem;
 }
-.pad-left5{
-  padding-left: 5rem;
+.pad-left7{
+  padding-left: 7rem;
 }
 .pad-btm-1{
   padding-bottom: 1rem;
@@ -88,6 +98,9 @@ h1{
 
 .w-100p{
   width:100%;
+}
+.w-95p{
+  width:95%;
 }
 .w-85p{
   width:85%;
@@ -485,9 +498,14 @@ text-align: left;
 
 a{
   text-decoration: none;
-  color: #3498DB;
+  color: #2C3E50;
 }
 
-a:hover{
+a:hover, #logo:hover{
   color:#D32122;
+}
+
+.nav-fa{
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
 }

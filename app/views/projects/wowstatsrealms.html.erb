@@ -1,0 +1,74 @@
+<!-- Nav Bar -->
+<div id="nav" class="w-100p h-4 pos-fixed z-nav top-0 left-0  back-white b-btm">
+    <div class="w-50p h-100p disp-inline float-left">
+      <div class="marg-auto pad-left7 " style="height:80%"><a href="/#top"><img id="logo" style="height:100%; padding-top:5px;" src="/assets/logodg.png"></a></div>
+    </div>
+    <div class="w-50p h-100p disp-inline float-left txt-right ">
+
+      <div class="marg-top-nav pad-right7">
+        <a href="/#about-me" class="pad-05">About</a>
+        <a href="/#portfolio" class="pad-05">Portfolio</a>
+        <a href="/#resume" class="pad-05">Resume</a>
+        <a href="/#contact" class="pad-05">Contact</a>
+
+      </div>
+    </div>
+</div>
+
+<!-- Main Content -->
+<div  class="container_12 back-white">
+    <div class="grid_12 h-5"></div>
+    <div  class="grid_12 txt-center ">
+      <div style="float:right; ">
+        <i class="fa fa-chevron-left nav-fa"></i>
+        <a href="/#portfolio"><i class="fa fa-th nav-fa"></i></a>
+        <i class="fa fa-chevron-right nav-fa"></i>
+      </div>
+      <div><h1><%= @project.name.capitalize %></h1></div>
+    </div>
+    <!-- Profile Picture Round -->
+    <div class="grid_6 back-orange h-30">
+      <p>Screenshot1</p>
+    </div>
+
+    <!-- Introduction Section -->
+    <div class="grid_6 back-red h-30" style="position:fixed; right:14.5rem; top: 10rem;">
+      <p>Project Description</p>
+    </div>
+    <div class="clear"></div>
+    <div class="grid_12 h-1"></div>
+    <div class="clear"></div>
+
+    <div class="grid_6  back-green h-30">
+      <p>Screen2</p>
+    </div>
+    <div class="clear"></div>
+    <div class="grid_12 h-1"></div>
+    <div class="clear"></div>
+
+
+    <div class="grid_6  back-blue h-30">
+      <p>Screen3</p>
+    </div>
+    <div class="clear"></div>
+    <div class="grid_12 h-1"></div>
+    <div class="clear"></div>
+
+    <div class="grid_6  back-offwhite h-30">
+      <p>Screen4</p>
+    </div>
+    <div class="clear"></div>
+    <div class="grid_12 h-1"></div>
+    <div class="clear"></div>
+
+    <div class="grid_6  back-ltblue h-30">
+      <p>Screen5</p>
+    </div>
+    <div class="clear"></div>
+    <div class="grid_12 h-1"></div>
+    <div class="clear"></div>
+
+
+    <div class="grid_12 h-3 "></div>
+
+    <%= @project.name %>

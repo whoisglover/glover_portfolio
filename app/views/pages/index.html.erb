@@ -43,22 +43,22 @@
  -->
 
   <div id="nav" class="w-100p h-4 pos-fixed z-nav top-0 left-0  back-white b-btm">
-    <div class="w-50p h-100p disp-inline float-left ">
-      <div class="marg-top-nav pad-left5"><a href="#top">DG</a></div>
+    <div class="w-50p h-100p disp-inline float-left">
+      <div class="marg-auto pad-left7 " style="height:80%"><a href="/#top"><img id="logo" style="height:100%; padding-top:5px;" src="/assets/logodg.png"></a></div>
     </div>
     <div class="w-50p h-100p disp-inline float-left txt-right ">
-      <div class="marg-top-nav pad-right5">
-        <a href="#about-me">About</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#resume">Resume</a>
-        <a href="#contact">Contact</a>
+      <div class="marg-top-nav pad-right7">
+        <a href="#about-me" class="pad-05">About</a>
+        <a href="#portfolio" class="pad-05">Portfolio</a>
+        <a href="#resume" class="pad-05">Resume</a>
+        <a href="#contact" class="pad-05">Contact</a>
 
       </div>
     </div>
   </div>
 
 
-  <div id="top" class="w-100p pos-abs header" style="height:660px;">
+  <div id="top" class="w-100p pos-abs header" style="height:50rem;">
     <div class="overflow-hid w-100p h-100p">
       <video  width='100%', height="auto", preload="auto", autoplay="autoplay", muted="muted", poster="", loop="true">
         <source src="assets/nasa.mp4">
@@ -66,7 +66,7 @@
     </div>
   </div>
 
-  <div class="w-100p pos-relative left-0 h-41 back-black   top-offset z-plus">
+  <div class="w-100p pos-relative left-0 h-50 back-black   top-offset z-plus">
   </div>
 
   <div class="w-50p pos-abs top-10 left-10 h-10  z-plus txt-center ft-4 white">
@@ -75,10 +75,11 @@
 
 
   <!-- About Me Section -->
+
   <div id="about-me" class="header"></div>
   <div  class="container_12 back-white">
     <div  class="grid_12 txt-center ">
-      <div><h1>About Me</h1></div>
+      <div><h1 class="marg-top2">About</h1></div>
     </div>
     <!-- Profile Picture Round -->
     <div class="grid_6 pad-btm-1">
@@ -140,9 +141,8 @@
     </div>
 
     <!-- Personal Section -->
-    <div class="grid_6  clearfix txt-center">
-      <h1>What I'm Up To</h1>
-      <p></p>
+    <div class="grid_6 clearfix txt-center" style="height:211px;">
+      <img src="assets/logo.png" class="w-95p pad-left2">
     </div>
 
     <div class="clear"></div>
@@ -200,7 +200,7 @@
         <li>PostgreSQL</li>
       </ul>
 
-      <p><a href="">Details<i class="fa fa-angle-double-right"></i></a></p>
+      <p><a href="/projects/capms">Details<i class="fa fa-angle-double-right"></i></a></p>
 
     </div>
     <div class="grid_4 back-en txt-center h-38">
@@ -218,7 +218,7 @@
         <li>PostgreSQL</li>
         <li class="white"></li>
       </ul>
-      <p><a href="">Details<i class="fa fa-angle-double-right"></i></a></p>
+      <p><a href="/projects/when-where">Details<i class="fa fa-angle-double-right"></i></a></p>
 
     </div>
     <div class="clear"></div>
@@ -228,7 +228,7 @@
           <img class="h-100p" src="/assets/fittogether.png">
         </div>
         <h2>Fit Together</h2>
-        <h3>Team based excericse competition app</h3>
+        <h3>Team based excericse competition application</h3>
         <p>Technologies:</p>
         <ul class="txt-left">
           <li>Swift</li>
@@ -237,7 +237,7 @@
           <li>Cloudkit</li>
         </ul>
 
-        <p><a href="">Details<i class="fa fa-angle-double-right"></i></a></p>
+        <p><a href="/projects/fit-together">Details<i class="fa fa-angle-double-right"></i></a></p>
 
       </div>
 
@@ -254,7 +254,7 @@
           <li>Battle.net API</li>
           <li class="white"></li>
         </ul>
-        <p><a href="">Details<i class="fa fa-angle-double-right"></i></a></p>
+        <p><a href="/projects/wow-stats-realms">Details<i class="fa fa-angle-double-right"></i></a></p>
       </div>
     </div>
   </div>
@@ -279,12 +279,12 @@
   <div id="contact" class="header"></div>
   <div class="container_12 back-white">
     <div class="grid_12  txt-right">
-      <h1>Contact Me</h1>
+      <h1>Contact</h1>
     </div>
   </div>
   <% @contact = Contact.new %>
   <div align="center">
-    <h3>Want to chat? Shoot me an <a href="mailto:djglover00@gmail.com">email</a>.</h3>
+    <h3>Want to chat? Shoot me an <a style="color: #3498DB" href="mailto:djglover00@gmail.com">email</a>.</h3>
     <br>
     <br>
     <br>
