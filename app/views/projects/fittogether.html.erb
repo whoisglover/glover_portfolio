@@ -18,51 +18,66 @@
 <!-- Main Content -->
 <div  class="container_12 back-white">
     <div class="grid_12 h-5"></div>
-    <div  class="grid_12 txt-center ">
-      <div style="float:right; ">
-        <i class="fa fa-chevron-left nav-fa"></i>
+    <div  class="grid_12 txt-center">
+      <div style="float:right; position:fixed;right:15rem;">
+        <a href="/projects/capms"><i class="fa fa-chevron-left nav-fa"></i></a>
         <a href="/#portfolio"><i class="fa fa-th nav-fa"></i></a>
-        <i class="fa fa-chevron-right nav-fa"></i>
+        <a href="/projects/wow-stats-realms"><i class="fa fa-chevron-right nav-fa"></i></a>
       </div>
-      <div><h1><%= @project.name.capitalize %></h1></div>
+
     </div>
     <!-- Profile Picture Round -->
-    <div class="grid_6 back-orange h-30">
-      <p>Screenshot1</p>
+    <div class="grid_7 h-20" style="margin-top:3rem;">
+      <img src="/assets/fit/1.png" style="width:50%;padding-left:25%">
     </div>
 
     <!-- Introduction Section -->
-    <div class="grid_6 back-red h-30" style="position:fixed; right:14.5rem; top: 10rem;">
-      <p>Project Description</p>
+    <div class="grid_5 " style="height:36rem;position:fixed; right:14.5rem; top: 6rem;">
+      <div><h1 class="">Fit Together</h1></div>
+      <p class="margin-0">Fit together is a team based walking competition app for the iPhone. Groups of friends, coworkers, or families can challenge each other to see who can walk the most in a given period of time.
+      </p>
+      <p>This iOS app is built purely in Swift and leverages Apple's Healthkit and Cloudkit. The app is supported on all iPhones, but using a 5S or newer means you don't need any additional hardware to track steps, just download the app and get walking!
+      </p>
+      <p>Fit Together was built with a team of my peers as part of the Mobile Application Development class at the University of Missouri.
+      </p>
+      <p class="txt-center"><b>Technologies:</b></p>
+      <ul class="txt-left">
+        <li>Swift</li>
+        <li>XCode 6</li>
+        <li>Healthkit</li>
+        <li>Cloudkit</li>
+      </ul>
+      <div class="txt-center">
+        <a href="http://www.github.com/whoisglover/fittogether" target="_blank"><i class="fa fa-2x fa-github"></i></div></a>
     </div>
     <div class="clear"></div>
     <div class="grid_12 h-1"></div>
     <div class="clear"></div>
 
-    <div class="grid_6  back-green h-30">
-      <p>Screen2</p>
+    <div class="grid_7  back-green h-20">
+      <img src="/assets/when/2.png" style="width:100%">
     </div>
     <div class="clear"></div>
     <div class="grid_12 h-1"></div>
     <div class="clear"></div>
 
 
-    <div class="grid_6  back-blue h-30">
-      <p>Screen3</p>
+    <div class="grid_7  back-blue h-20">
+      <img src="/assets/when/3.png" style="width:100%">
     </div>
     <div class="clear"></div>
     <div class="grid_12 h-1"></div>
     <div class="clear"></div>
 
-    <div class="grid_6  back-offwhite h-30">
-      <p>Screen4</p>
+    <div class="grid_7  back-offwhite h-20">
+      <img src="/assets/when/4.png" style="width:100%">
     </div>
     <div class="clear"></div>
     <div class="grid_12 h-1"></div>
     <div class="clear"></div>
 
-    <div class="grid_6  back-ltblue h-30">
-      <p>Screen5</p>
+    <div class="grid_7  back-ltblue h-20">
+      <img src="/assets/when/5.png" style="width:100%">
     </div>
     <div class="clear"></div>
     <div class="grid_12 h-1"></div>
@@ -70,5 +85,3 @@
 
 
     <div class="grid_12 h-3 "></div>
-
-    <%= @project.name %>
