@@ -463,8 +463,8 @@ background-color: #3498DB;
 }
 
 #behind-video{
-  background: url('/assets/san.jpg');
-background-size: cover;
+  /*background: url('/assets/san.jpg');*/
+  /*background-size: cover;*/
   /*background-repeat: no-repeat;*/
 }
 .hidden { display: none; }
