@@ -18,6 +18,8 @@ class ProjectsController < ApplicationController
       render :fittogether
     when "wow-stats-realms"
       render :wowstatsrealms
+    when "test"
+      render :test
     else
       redirect_to("/")
     end

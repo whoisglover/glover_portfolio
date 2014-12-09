@@ -1,4 +1,10 @@
 $(document).on('ready', function () {
+  $('.bxslider').bxSlider({
+    mode: 'fade'
+
+  });
+
+
   $(function() {
     $('a[href*=#]:not([href=#])').click(function() {
       if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {

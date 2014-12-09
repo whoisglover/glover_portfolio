@@ -462,7 +462,11 @@ background-color: #3498DB;
   background-repeat: no-repeat;
 }
 
-
+#behind-video{
+  background: url('/assets/san.jpg');
+background-size: cover;
+  /*background-repeat: no-repeat;*/
+}
 .hidden { display: none; }
 
 /*flash messages for mailer*/
@@ -508,4 +512,9 @@ a:hover, #logo:hover{
 .nav-fa{
   padding-left: 0.25rem;
   padding-right: 0.25rem;
+}
+.bxslider {
+    list-style:none;
+    margin:0;
+    padding:0
 }
