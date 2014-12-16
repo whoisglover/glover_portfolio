@@ -72,6 +72,91 @@
 
 }
 
+/*iphone 6*/
+@media only screen
+    and (min-device-width : 375px)
+    and (max-device-width : 667px)
+    and (orientation : landscape)
+    and (-webkit-min-device-pixel-ratio : 2){
+  #behind-video{
+    background: url('/assets/san.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #vid{
+    display: none;
+  }
+  #greeting{
+    left:1rem;
+    top:7rem;
+  }
+
+ }
+
+@media only screen
+    and (min-device-width : 375px)
+    and (max-device-width : 667px)
+    and (orientation : portrait)
+    and (-webkit-min-device-pixel-ratio : 2)
+{
+   #behind-video{
+    background: url('/assets/san.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #vid{
+    display: none;
+  }
+  #greeting{
+    left:1rem;
+    top:7rem;
+  }
+
+ }
+
+/*iphone 6+*/
+@media only screen
+    and (min-device-width : 414px)
+    and (max-device-width : 736px)
+    and (orientation : landscape)
+    and (-webkit-min-device-pixel-ratio : 3)
+{
+  #behind-video{
+    background: url('/assets/san.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #vid{
+    display: none;
+  }
+  #greeting{
+    left:1rem;
+    top:7rem;
+  }
+
+}
+
+@media only screen
+    and (min-device-width : 414px)
+    and (max-device-width : 736px)
+    and (orientation : portrait)
+    and (-webkit-min-device-pixel-ratio : 3)
+{
+  #behind-video{
+    background: url('/assets/san.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #vid{
+    display: none;
+  }
+  #greeting{
+    left:1rem;
+    top:7rem;
+  }
+
+}
+
 /* End media queries */
 
 @-moz-document url-prefix() {
