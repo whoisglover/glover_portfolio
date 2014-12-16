@@ -1,0 +1,87 @@
+/* -------------------- Media queries -------------------- */
+
+
+/*iPad lanscape*/
+@media screen and (max-device-width: 960px) and (min-width: 1000px) and (max-width: 1030px){
+
+}
+
+
+
+/* Tablet Portrait size -> standard 960 */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  input, textarea{-webkit-appearance: none;-webkit-border-radius:0;}
+  #behind-video{
+    background: url('/assets/san.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #vid{
+    display: none;
+  }
+  #greeting{
+    left:1rem;
+    top:7rem;
+
+  }
+
+}
+
+
+/* Mobile Landscape Size -> Tablet Portrait size*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    /* width 400, holder and content*/
+  #behind-video{
+    background: url('/assets/san.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #vid{
+    display: none;
+  }
+  #greeting{
+    left:1rem;
+    top:7rem;
+  }
+
+}
+
+
+/* Mobile Portrait Size -> Mobile Landscape Size */
+@media only screen and (max-width:479px) {
+
+
+  html{-webkit-text-size-adjust: none;-moz-text-size-adjust:none;-ms-text-size-adjust:none;}
+  .testimoniaContainer,#teaser {background-attachment: scroll;background-position:top center !important;background-size: cover;}
+
+  #behind-video{
+    background: url('/assets/san.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #vid{
+    display: none;
+  }
+  #greeting{
+    left:1rem;
+    top:7rem;
+
+  }
+  /*.holder960,.testimonialContent{width:230px;}*/
+
+}
+
+/* End media queries */
+
+@-moz-document url-prefix() {
+  #behind-video{
+    background: url('/assets/san.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #greeting{
+    right:2rem;
+    left:50%;
+  }
+}
